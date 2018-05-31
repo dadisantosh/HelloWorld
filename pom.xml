@@ -15,10 +15,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<!--  <distributionManagement>
+<distributionManagement>
     <snapshotRepository>
-      <id>nexusCIProcess</id>
-      <url>http://<your nexus host>:8081/nexus/content/repositories/snapshots</url>
+      <id>snapshots</id>
+      <url>http://192.168.5.36:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
-  </distributionManagement> -->  
+  </distributionManagement>  
 </project>
